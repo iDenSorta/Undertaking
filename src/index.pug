@@ -4,10 +4,10 @@ doctype html
 html(lang="ru")
     head
         title=pageTitle
-        link(rel="stylesheet", href="../src/styles/style.css")
-    body 
-        include modules/header-and-banner
+        meta(name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1")
+    body
         
+        include modules/header-and-banner
         include modules/catalog
         include modules/specifies
         include modules/examples
@@ -15,7 +15,4 @@ html(lang="ru")
         include modules/about-us
         include modules/uq-design
         include modules/footer
-
         
-    //
-       script(src="../dist/main.js")

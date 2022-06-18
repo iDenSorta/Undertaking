@@ -4,7 +4,12 @@
 .service{
     display: flex;
     height: 66.5rem;
-    background-image: url(/src/img/service-img-bg.png);
+    background-image: url(/src/img/service-img-grave.png), url(/src/img/service-img-bg.png);
+    background-repeat: no-repeat;
+    background-position: right, center;
+    width: 100%;
+    justify-content: flex-end;
+    flex-direction: row;
     
 }
 
@@ -17,26 +22,31 @@
 }
 
 .service-text{
-    width: 50%;
+    width: 69%;
     display: flex;
     background-position: right bottom;
     flex-direction: column;
+    justify-content: center;
+    margin-left: 0rem;
     flex-wrap: wrap;
-    align-content: flex-start;
     align-items: flex-start;
+    margin: auto;
+    
 
     p{
         margin-bottom: 5rem;
+        width: 48rem;
     }
 
 }   
 
 .service-text-items{
-    width: 55%;
+    width: 33%;
     height: fit-content;
     min-width: 45rem;
-    margin: 10rem 19rem;
     z-index: 1;
+    margin-bottom: 3rem;
+    
 
     h2{
         width: 150%;
